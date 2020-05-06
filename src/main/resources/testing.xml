@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Adrian Szczesny Demo Test Automation">
+
+    <listeners>
+        <listener class-name="ExtentReportListener.ExtentReportListener" />
+    </listeners>
+
+    <test name="DEMO_TESTS">
+        <classes>
+            <class name="LoginPageTests"></class>
+        </classes>
+    </test>
+</suite>
